@@ -11,7 +11,7 @@ public class Salvadanaio{
 
         usa(false);
     }
-    public void usa(boolean inserisci){
+    public synchronized void usa(boolean inserisci){
         if(inserisci){
             monete++;
         }else{
